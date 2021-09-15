@@ -1,0 +1,107 @@
+Where did the data come from?
+
+The data was scrapped from https://www.basketball-reference.com/ through two custom R-scripts (schedule_and_results.R and total_basic_box_scores.R).
+
+What is in the data?
+The data sets contain information (i.e., schedule and results data and total  basic box scores data) on NBA games from the 2016-17, 2017-18, 2018-19, 2019-20 and 2020-21 seasons.
+
+What are the variables in the raw folder?
+
+box_score_urls_2016_2020.csv
+boxscore_links = web pages of the box scores
+
+schedule_and_results_2016_2020.csv
+Date = date of the game
+Start (ET) = start time of the game
+Vistor/Neutral = name of the away team
+PTS(1) = points scored by the away team 
+Home/Neutral = name of the home team
+PTS(2) = points scored by the home team
+?(1) = box score text
+?(2) = overtime
+Attend. = attendance
+Notes = game remarks
+
+total_basic_box_scores_away.csv and total_basic_box_scores_home.csv
+mp = minutes played
+fg = field goals
+fga = field goal attempts
+fg_pct = field goal percentage
+fg3 = three-point field goals
+fg3a = three-point field goal attempts
+fg3_pct = three-point field goal percentage
+ft = free throws
+fta = free throw attempts
+ft_pct = free throw percentage
+orb = offensive rebounds
+drb = defensive rebounds
+trb = total rebounds
+ast = assists
+stl = steals
+blk = blocks
+tov = turnovers
+pf = personal fouls
+pts = points
+plus_minus = Box Plus/Minus (BPM)
+
+What are the variables in the processed folder?
+
+box_score_urls_2016_2020.csv
+urls = box score URLs
+home = abbreviation of the home team
+away = abbreviation of the away team
+
+schedule_and_results_2016_2020.csv
+date = date of the game
+away_team = name of the away team
+points_away = points of the away team
+home_team = name of the home team
+points_home = points of the home team
+attendance = attendance
+home_win = Did the home team win? 0 = home team lost; 1 = home team won
+point_difference = points home - points away
+abs_point_dif = absolute values of point difference (i.e., all point difference values were made positive)
+season = season of that particular game
+win_percentage = (the number of games won by a home team divided by their total number of games played)*100
+
+total_basic_box_scores.csv
+date = date
+bubble = Is this a NBA bubble game? Pre-bubble (no); Bubble (yes); Post-bubble (no)
+zero = Is this a 2020-21 zero attendance game? Pre-restrictions (no); TRUE (yes); Restricted (no)
+attendance = attendance
+home_win = Did the home team win? 0 = home team lost; 1 = home team won
+point_difference = points home - points away
+abs_point_dif = absolute values of point difference (i.e., all point difference values were made positive)
+season = season of that particular game
+win_percentage = (the number of games won by a home team divided by their total number of games played)*100
+venue = Home or Away
+fg = field goals
+fga = field goal attempts
+fg_pct = field goal percentage
+fg3 = three-point field goals
+fg3a = three-point field goal attempts
+fg3_pct = three-point field goal percentage
+ft = free throws
+fta = free throw attempts
+ft_pct = free throw percentage
+orb = offensive rebounds
+drb = defensive rebounds
+trb = total rebounds
+ast = assists
+stl = steals
+blk = blocks
+tov = turnovers
+pf = personal fouls
+points = points
+team = team that the data belongs to
+
+total_box_scores_glm_lm.csv contains the same variables and utilizes the same definitions as total_basic_box_scores.csv
+HOWEVER THERE IS ONE EXCEPTION
+season in total_box_scores_glm_lm.csv consists of 2016-17, 2017-18, 2018-19, 
+2019-20 (pre COVID-19 games in the 2019-20 season), 
+2019-21 (COVID-19 games that did not have any attendees (includes NBA bubbles games)) 
+and 2020-21 (post COVID-19 games that had at least 10% maximum capacity)
+
+Of interest to the current project are: 
+abs_point_dif, point_difference, home_win, win_percentage,
+venue, season, attendance, fga, fg3a, fta, orb, drb, stl, blk, tov and pf
