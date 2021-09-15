@@ -1,0 +1,265 @@
+> citation("here")
+
+To cite package ‘here’ in publications use:
+  
+  Kirill Müller (2020). here: A Simpler Way to Find Your Files. R package version 1.0.1.
+https://CRAN.R-project.org/package=here
+
+A BibTeX entry for LaTeX users is
+
+@Manual{,
+  title = {here: A Simpler Way to Find Your Files},
+  author = {Kirill Müller},
+  year = {2020},
+  note = {R package version 1.0.1},
+  url = {https://CRAN.R-project.org/package=here},
+}
+
+> citation("foreach")
+
+To cite package ‘foreach’ in publications use:
+  
+  Microsoft and Steve Weston (2020). foreach: Provides Foreach Looping Construct. R
+package version 1.5.1. https://CRAN.R-project.org/package=foreach
+
+A BibTeX entry for LaTeX users is
+
+@Manual{,
+  title = {foreach: Provides Foreach Looping Construct},
+  author = {{Microsoft} and Steve Weston},
+  year = {2020},
+  note = {R package version 1.5.1},
+  url = {https://CRAN.R-project.org/package=foreach},
+}
+
+> citation("rvest")
+
+To cite package ‘rvest’ in publications use:
+  
+  Hadley Wickham (2021). rvest: Easily Harvest (Scrape) Web Pages. R package version
+1.0.0. https://CRAN.R-project.org/package=rvest
+
+A BibTeX entry for LaTeX users is
+
+@Manual{,
+  title = {rvest: Easily Harvest (Scrape) Web Pages},
+  author = {Hadley Wickham},
+  year = {2021},
+  note = {R package version 1.0.0},
+  url = {https://CRAN.R-project.org/package=rvest},
+}
+
+> citation("tidyverse")
+
+Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source Software,
+4(43), 1686, https://doi.org/10.21105/joss.01686
+
+A BibTeX entry for LaTeX users is
+
+@Article{,
+  title = {Welcome to the {tidyverse}},
+  author = {Hadley Wickham and Mara Averick and Jennifer Bryan and Winston Chang and Lucy D'Agostino McGowan and Romain François and Garrett Grolemund and Alex Hayes and Lionel Henry and Jim Hester and Max Kuhn and Thomas Lin Pedersen and Evan Miller and Stephan Milton Bache and Kirill Müller and Jeroen Ooms and David Robinson and Dana Paige Seidel and Vitalie Spinu and Kohske Takahashi and Davis Vaughan and Claus Wilke and Kara Woo and Hiroaki Yutani},
+    year = {2019},
+    journal = {Journal of Open Source Software},
+    volume = {4},
+    number = {43},
+    pages = {1686},
+    doi = {10.21105/joss.01686},
+  }
+
+> citation("data.table")
+
+To cite package ‘data.table’ in publications use:
+
+  Matt Dowle and Arun Srinivasan (2021). data.table: Extension of `data.frame`. R
+  package version 1.14.0. https://CRAN.R-project.org/package=data.table
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {data.table: Extension of `data.frame`},
+    author = {Matt Dowle and Arun Srinivasan},
+    year = {2021},
+    note = {R package version 1.14.0},
+    url = {https://CRAN.R-project.org/package=data.table},
+  }
+
+> citation("dplyr")
+
+To cite package ‘dplyr’ in publications use:
+
+  Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2021). dplyr: A
+  Grammar of Data Manipulation. R package version 1.0.7.
+  https://CRAN.R-project.org/package=dplyr
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {dplyr: A Grammar of Data Manipulation},
+    author = {Hadley Wickham and Romain François and Lionel Henry and Kirill Müller},
+    year = {2021},
+    note = {R package version 1.0.7},
+    url = {https://CRAN.R-project.org/package=dplyr},
+  }
+
+> citation("lubridate")
+
+To cite lubridate in publications use:
+
+  Garrett Grolemund, Hadley Wickham (2011). Dates and Times Made Easy with lubridate.
+  Journal of Statistical Software, 40(3), 1-25. URL https://www.jstatsoft.org/v40/i03/.
+
+A BibTeX entry for LaTeX users is
+
+  @Article{,
+    title = {Dates and Times Made Easy with {lubridate}},
+    author = {Garrett Grolemund and Hadley Wickham},
+    journal = {Journal of Statistical Software},
+    year = {2011},
+    volume = {40},
+    number = {3},
+    pages = {1--25},
+    url = {https://www.jstatsoft.org/v40/i03/},
+  }
+
+> citation("xml2")
+
+To cite package ‘xml2’ in publications use:
+
+  Hadley Wickham, Jim Hester and Jeroen Ooms (2020). xml2: Parse XML. R package version
+  1.3.2. https://CRAN.R-project.org/package=xml2
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {xml2: Parse XML},
+    author = {Hadley Wickham and Jim Hester and Jeroen Ooms},
+    year = {2020},
+    note = {R package version 1.3.2},
+    url = {https://CRAN.R-project.org/package=xml2},
+  }
+
+> citation("XML")
+
+To cite package ‘XML’ in publications use:
+
+  Duncan Temple Lang (2021). XML: Tools for Parsing and Generating XML Within R and
+  S-Plus. R package version 3.99-0.6. https://CRAN.R-project.org/package=XML
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {XML: Tools for Parsing and Generating XML Within R and S-Plus},
+    author = {Duncan {Temple Lang}},
+    year = {2021},
+    note = {R package version 3.99-0.6},
+    url = {https://CRAN.R-project.org/package=XML},
+  }
+
+> citation("stringr")
+
+To cite package ‘stringr’ in publications use:
+
+  Hadley Wickham (2019). stringr: Simple, Consistent Wrappers for Common String
+  Operations. R package version 1.4.0. https://CRAN.R-project.org/package=stringr
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {stringr: Simple, Consistent Wrappers for Common String Operations},
+    author = {Hadley Wickham},
+    year = {2019},
+    note = {R package version 1.4.0},
+    url = {https://CRAN.R-project.org/package=stringr},
+  }
+
+> citation("ggplot2")
+
+To cite ggplot2 in publications, please use:
+
+  H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York,
+  2016.
+
+A BibTeX entry for LaTeX users is
+
+  @Book{,
+    author = {Hadley Wickham},
+    title = {ggplot2: Elegant Graphics for Data Analysis},
+    publisher = {Springer-Verlag New York},
+    year = {2016},
+    isbn = {978-3-319-24277-4},
+    url = {https://ggplot2.tidyverse.org},
+  }
+
+> citation("Hmisc")
+
+To cite package ‘Hmisc’ in publications use:
+
+  Frank E Harrell Jr, with contributions from Charles Dupont and many others. (2021).
+  Hmisc: Harrell Miscellaneous. R package version 4.5-0.
+  https://CRAN.R-project.org/package=Hmisc
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {Hmisc: Harrell Miscellaneous},
+    author = {Frank E {Harrell Jr} and with contributions from Charles Dupont and many others.},
+    year = {2021},
+    note = {R package version 4.5-0},
+    url = {https://CRAN.R-project.org/package=Hmisc},
+  }
+
+ATTENTION: This citation information has been auto-generated from the package
+DESCRIPTION file and may need manual editing, see ‘help("citation")’.
+
+> citation("renv")
+
+To cite package ‘renv’ in publications use:
+
+  Kevin Ushey (2021). renv: Project Environments. R package version 0.13.2-38.
+  https://rstudio.github.io/renv/
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {renv: Project Environments},
+    author = {Kevin Ushey},
+    year = {2021},
+    note = {R package version 0.13.2-38},
+    url = {https://rstudio.github.io/renv/},
+  }
+
+Warning message:
+In citation("renv") : no date field in DESCRIPTION file of package ‘renv’
+
+> citation("broom")
+
+To cite package ‘broom’ in publications use:
+
+  David Robinson, Alex Hayes and Simon Couch (2021). broom: Convert Statistical Objects
+  into Tidy Tibbles. R package version 0.7.9. https://CRAN.R-project.org/package=broom
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {broom: Convert Statistical Objects into Tidy Tibbles},
+    author = {David Robinson and Alex Hayes and Simon Couch},
+    year = {2021},
+    note = {R package version 0.7.9},
+    url = {https://CRAN.R-project.org/package=broom},
+  }
+
+To cite package ‘tidyr’ in publications use:
+
+  Hadley Wickham (2021). tidyr: Tidy Messy Data. R package version 1.1.3.
+  https://CRAN.R-project.org/package=tidyr
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {tidyr: Tidy Messy Data},
+    author = {Hadley Wickham},
+    year = {2021},
+    note = {R package version 1.1.3},
+    url = {https://CRAN.R-project.org/package=tidyr},
+  }
